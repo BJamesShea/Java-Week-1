@@ -5,7 +5,7 @@ public class Exercise1 {
         Scanner input = new Scanner(System.in);
         int num;
 
-        System.out.println("Enter a one-digit number (0-()");
+        System.out.println("Enter a one-digit number (0-9)");
         num = input.nextInt();
 
         if (num >= 0 && num <=9) {
